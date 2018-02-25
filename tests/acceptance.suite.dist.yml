@@ -1,0 +1,21 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+actor: AcceptanceTester
+extensions:
+  enabled:
+    - Codeception\Extension\RunProcess:
+        0: phantomjs --webdriver=4444
+        sleep: 2
+modules:
+    enabled:
+        - \MDBootstrapTest\Helper\Acceptance
+        - WebDriver:
+            url: 'http://mdbootstrap.dev/'
+            browser: phantomjs
+            window_size: 640x480
+            restart: true
+            clear_cookies: true
