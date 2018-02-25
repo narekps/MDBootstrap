@@ -1,6 +1,6 @@
 # MDBootstrap
 
-MDBootstrap module for Zend Framework
+A simple Zend Framework module for https://github.com/mdbootstrap/bootstrap-material-design
 
 ## Navbar helper
 
