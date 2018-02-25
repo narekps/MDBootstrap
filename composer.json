@@ -1,0 +1,37 @@
+{
+    "name": "narekps/MDBootstrap",
+    "description": "A simple MDBootstrap module for Zend Framework 3.",
+    "type": "library",
+    "license": "MIT License",
+    "keywords": [
+        "zf3",
+        "bootstrap",
+        "MDBootstrap"
+    ],
+    "homepage": "https://github.com/narekps/MDBootstrap",
+    "authors": [
+        {
+            "name": "Narek Poghosyan",
+            "email": "narek.p@live.ru",
+            "homepage": "http://narek.pro/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-navigation": "^2.8",
+        "zendframework/zend-mvc": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MDBootstrap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MDBootstrapTest\\": "test/"
+        }
+    },
+    "extra": [],
+    "require-dev": {
+    }
+}
