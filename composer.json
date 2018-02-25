@@ -26,11 +26,6 @@
             "MDBootstrap\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "MDBootstrapTest\\": "test/"
-        }
-    },
     "extra": [],
     "require-dev": {
         "codeception/codeception": "^2.3"
