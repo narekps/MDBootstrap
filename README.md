@@ -2,7 +2,7 @@
 
 MDBootstrap module for Zend Framework
 
-##Navbar helper
+## Navbar helper
 
 Navigation config:
 
